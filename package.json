@@ -1,5 +1,5 @@
 {
-  "name": "wabot-aq",
+  "name": "SYMPHONY BOT",
   "version": "1.3.0",
   "description": "Customizable WhatsApp Bot",
   "depecrated": false,
@@ -19,15 +19,15 @@
     "whatsapp",
     "js-whatsapp"
   ],
-  "homepage": "https://github.com/Nurutomo/wabot-aq",
+  "homepage": "https://github.com/lastsymphony/lastv4",
   "author": {
-    "name": "Nurutomo"
+    "name": "ADITYA JATAYU"
   },
   "repository": {
-    "url": "https://github.com/Nurutomo/wabot-aq.git"
+    "url": "https://github.com/lastsymphony/lastv4.git"
   },
   "bugs": {
-    "url": "https://github.com/Nurutomo/wabot-aq/issues"
+    "url": "https://github.com/lastsymphony/lastv4/issues"
   },
   "license": "GPL-3.0",
   "dependencies": {
