@@ -461,8 +461,116 @@ fs.watch(path.join(__dirname, 'plugins'), global.reload)
 
 process.on('exit', () => global.DATABASE.save())
 
+//nekopoi
+const nekopoi = require('nekobocc')
+async function update() {
+    const res = await nekopoi.latest()
+    console.log(res)
+ }
+async function getHentaiEpisode(url) {
+    const res = await nekopoi.getHentaiEpisode(url)
+    console.log(res)
+}
+async function search(query) {
+    const res = await nekopoi.search(query)
+    console.log(res)
+}
+async function getHentai(url) {
+    const res = await nekopoi.getHentai(url)
+    console.log(res)
+}
+async function random() {
+    const res = await nekopoi.random()
+    console.log(res)
+}
+update()
+*
+ Expected output:
+ {
+   "result": [
+       {
+           "img": string,
+           "title": string,
+           "link": string[]
+       }
+   ]
+ }
+*/
 
+getHentaiEpisode('https://nekopoi.care/xxx-xxx-episode-1')
+*
+ Expected output:
+ {
+   "result": {
+       "img": string,
+       "title": string,
+       "synopsis": string,
+       "genre": string,
+       "producers": string,
+       "duration": string,
+       "quality": string[],
+       "link": string[]
+   }
+ }
+*/
 
+search('shoujo ramune')
+*
+ Expected output:
+ {
+   "result": [
+       {
+           "img": string,
+           "title": string,
+           "link": string[]
+       }
+   ]
+ }
+*/
+
+getHentai('https://nekopoi.care/hentai/xxxxxx')
+*
+ Expected output:
+ {
+    "result": {
+        img: string,
+        title: string,
+        synopsis: string,
+        views: number,
+        japanese: string,
+        category: string,
+        episode: number,
+        status: string,
+        aired: string,
+        producers: string,
+        genre: string,
+        duration: string,
+        score: number
+    }
+ }
+*/
+
+random()
+*
+ Expected output:
+ {
+    "result": {
+        img: string,
+        title: string,
+        synopsis: string,
+        views: number,
+        japanese: string,
+        category: string,
+        episode: number,
+        status: string,
+        aired: string,
+        producers: string,
+        genre: string,
+        duration: string,
+        score: number
+    }
+ }
+*/
 // Quick Test
 let ffmpeg = spawnSync('ffmpeg')
 let ffmpegWebp = spawnSync('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-filter_complex', 'color', '-frames:v', '1', '-f', 'webp', '-'])
