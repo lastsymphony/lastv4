@@ -16,7 +16,7 @@ let rl = Readline.createInterface(process.stdin, process.stdout)
 let WAConnection = simple.WAConnection(_WAConnection)
 
 
-global.owner = ['6289670394574','6285823554146','6285747874973','6285762005157','6281319352377','6282273025238','6285240424044','628983100508','62895433996700','62895618689182'] // Put your number here
+global.owner = ['6289670394574','6285823554146','6285747874973','6285762005157','6281319352377','6282273025238','6285240424044','628983100508','62895433996700','62895618689182','6281233976038'] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
