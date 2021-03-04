@@ -87,16 +87,18 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 
 ╭════•›「 Sosmed 」
 ╿ Github :
-╿ https://github.com/lastsymphony/last
-╿ Youtube : aditya jatayu
-╿ Instagram : @aditya jatayu
+╿ https://github.com/lastsymphony/lastv4
+╿ Youtube :
+╿ aditya jatayu
+╿ Instagram :
+╿ @aditya jatayu
+╿ Facebook :
+╿ https://s.id/AoiFacebookGroup
 ╰═══════════════
 
 ╭════•›「 Rules 」
 ╿• Telpon/VC = BAN/BLOKIR
 ╿• Spam = BLOKIR
-╿• Ingin Donasi ?
-╿    => Hubungi #creator
 ╰═══════════════
 
 %readmore`
