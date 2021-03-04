@@ -16,7 +16,7 @@ Onii-Chan kenapa berhenti AFK 😞
     if (afkTime < 0) continue
     let reason = user.afkReason || 'AFK'
     m.reply(`
-Jangan Ganggu Onii-Chan dulu, dia baru ${reason}
+Jangan Ganggu Onii-Chan dulu, dia ${reason}
 Selama ${clockString(new Date - afkTime)}
 `.trim())
   }
