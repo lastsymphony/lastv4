@@ -8,9 +8,11 @@ Simple WhatsApp Bot
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/Nurutomo/wabot-aq
-> cd wabot-aq
+> pkg install libwebp
+> git clone https://github.com/lastsymphony/lastv4
+> cd lastv4
 > npm install
+> npm audit fix && npm start
 ```
 ###### Run
 ```bash
@@ -35,5 +37,5 @@ Simple WhatsApp Bot
 ```
 --------------
 
-##### Powered By : [`XTEAM`](https://api.xteam.xyz) 
-##### Author / Creator : [`Nurutomo`](https://GitHub.com/Nurutomo) 
+##### Powered By : 
+##### Author / Creator : 
